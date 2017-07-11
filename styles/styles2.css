@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+}
+
+input:focus, textarea:focus, select:focus {
+    border: 2px dashed #40071D;
+    border-radius: 5px;
+    outline: none;
+}
