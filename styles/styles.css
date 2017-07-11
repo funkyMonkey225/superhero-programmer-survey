@@ -21,3 +21,11 @@ form {
     max-width: 400px;
 
 }
+
+input, textarea, select {
+    border: 1px solid purple;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 0;
+    background: none;
+}
