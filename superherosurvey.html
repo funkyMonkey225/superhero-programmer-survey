@@ -21,33 +21,25 @@
         <input type="text" name="user-tagline" value="">
         <br>
         <label>Bio: </label>
-        <textarea name="user-bio">Briefly describe yourself.</textarea>
+        <textarea name="user-bio" maxlength="500">Briefly describe yourself.</textarea>
         <br>
         <label>Cape Size:</label>
-        <label>extra small 
-            <input type="radio" name="cape-size" value="xsmall">
-        </label>
-        <label>small 
-            <input type="radio" name="cape-size" value="small">
-        </label>
-        <label>medium 
-            <input type="radio" name="cape-size" value="medium">
-        </label>
-        <label>large
-            <input type="radio" name="cape-size" value="large">
-        </label>
-        <label>extra large
-            <input type="radio" name="cape-size" value="xlarge">
-        </label>
+        <select name="cape-size">
+            <option>extra small</option>
+            <option>small</option> 
+            <option>medium</option> 
+            <option>large</option>
+            <option>extra large</option>
+        </select>
         <br>
         <label>Spirit Animal: </label>
         <input type="text" name="user-animal" value="">
         <br>
         <label>Archenemies List: </label>
-        <textarea name="user-enemies"></textarea>
+        <textarea name="user-enemies" maxlength="500"></textarea>
         <br>
         <label>Superhero Powers: </label>
-        <textarea name="user-powers"></textarea>
+        <textarea name="user-powers" maxlength="500"></textarea>
         <br>
         <label>Operating System Choice: </label>
         <input type="text" name="user-oschoice" value="">
