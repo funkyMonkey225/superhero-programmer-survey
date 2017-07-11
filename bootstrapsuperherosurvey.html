@@ -12,24 +12,24 @@
     <h1>Super Programmer Survey</h1>
     <form action="http://localhost:5000" method="POST">
         <div class="form-group">
-            <label>Name </label>
-            <input type="text" name="username" value="">
+            <label for="username">Name</label>
+            <input type="text" class="form-control" name="username">
         </div>
         <div class="form-group">
-            <label>Age</label>
-            <input type="number" name="user-age" value="">
+            <label for="user-age">Age</label>
+            <input type="number" class="form-control" name="user-age">
         </div>
         <div class="form-group">
-            <label>Tagline</label>
-            <input type="text" name="user-tagline" value="">
+            <label for="user-tagline">Tagline</label>
+            <input type="text" class="form-control" name="user-tagline">
         </div>
         <div class="form-group">
-            <label>Bio</label>
-            <textarea name="user-bio" maxlength="500" placeholder="Briefly describe yourself."></textarea>
+            <label for="user-bio">Bio</label>
+            <textarea class="form-control" name="user-bio" maxlength="500" placeholder="Briefly describe yourself."></textarea>
         </div>
         <div class="form-group">
-            <label>Cape Size</label>
-            <select name="cape-size">
+            <label for="cape-size">Cape Size</label>
+            <select name="cape-size" class="form-control">
                 <option>extra small</option>
                 <option>small</option> 
                 <option>medium</option> 
@@ -38,24 +38,29 @@
             </select>
         </div>
         <div class="form-group">
-            <label>Spirit Animal</label>
-            <input type="text" name="user-animal" value="">
+            <label for="user-animal">Spirit Animal</label>
+            <input type="text" name="user-animal" class="form-control">
         </div>
         <div class="form-group">
-            <label>Archenemies List</label>
-            <textarea name="user-enemies" maxlength="500"></textarea>
+            <label for="user-enemies">Archenemies List</label>
+            <textarea name="user-enemies" maxlength="500" class="form-control"></textarea>
         </div>
         <div class="form-group">
-            <label>Superhero Powers</label>
-            <textarea name="user-powers" maxlength="500"></textarea>
+            <label for="user-powers">Superhero Powers</label>
+            <textarea name="user-powers" maxlength="500" class="form-control"></textarea>
         </div>
         <div class="form-group">
-            <label>Operating System Choice</label>
-            <input type="text" name="user-oschoice" value="">
+            <label for="user-oschoice">Operating System Choice</label>
+            <input type="text" name="user-oschoice" class="form-control">
         </div>
         <div class="form-group">
-            <label>Programming Languages</label>
-            <textarea name="user-languages"></textarea>
+            <label for="user-languages">Programming Languages</label>
+            <textarea name="user-languages" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="user-photo">Upload a Picture</label>
+            <input type="file" name="user-photo">
+            <p class="help-block">Please upload a profile picture.</p>
         </div>
         <button type="submit" class="btn btn-default" value="Submit">Submit</button>
         <button type="reset" class="btn btn-default" value="Reset">Reset</button>
