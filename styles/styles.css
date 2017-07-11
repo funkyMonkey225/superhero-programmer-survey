@@ -11,12 +11,14 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #40071D;
 }
 
 form {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     justify-content: center;
     max-width: 400px;
 
@@ -34,4 +36,20 @@ input:focus, textarea:focus, select:focus {
     border: 2px dashed #40071D;
     border-radius: 5px;
     outline: none;
+}
+
+/*Defines height of fields based on height of font in IE*/
+input {
+    height: 2.5em;
+    vertical-align: middle;
+}
+
+textarea {
+    display: block;
+    overflow: auto;
+}
+
+.submit-buttons {
+    display: flex;
+    justify-content: space-around;
 }
