@@ -2,6 +2,10 @@ body {
     text-align: center;
 }
 
+form {
+    max-width: 90%;
+}
+
 input:focus, textarea:focus, select:focus {
     border: 2px dashed #40071D;
     border-radius: 5px;
